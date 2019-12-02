@@ -23,7 +23,7 @@ DHT SENSOR
 #define VOLDOWN 0xFFA857
 #define UP      0xFF906F
 #define EQ      0xFF9867
-#define STREPT 0xFFB04F
+#define STREPT  0xFFB04F
 #define ZERO    0xFF6897
 #define ONE     0xFF30CF
 #define TWO     0xFF18E7
@@ -39,6 +39,7 @@ DHT SENSOR
 //Definition for volume button mapping
 #define CONTROLTEMP   0
 #define CONTROLHUMID  1
+#define CONTROLFAN    2
 
 //Definition for operating modes
 #define MANUAL  true
@@ -46,8 +47,8 @@ DHT SENSOR
 
 //These are the pin outs to the arduino from the H-Bridge IC 
 #define ENABLE 5
-#define DIRA 3
-#define DIRB 4
+#define DIRA   3
+#define DIRB   4
  
 //Initialize LCD Screen
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
